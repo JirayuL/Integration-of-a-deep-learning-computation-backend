@@ -2,5 +2,4 @@ keras
 tensorflow
 numpy
 pandas
-matplotlib
 pydot
