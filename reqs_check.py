@@ -42,6 +42,6 @@ except:
     print("Importing pydot failed!")
     check = False
 if check:
-    print("All dependency is install successfully!")
+    print("All dependencies is install successfully!")
 else:
-    print("Some dependency is not install successfully. Please reinstall it or create new environment.")
+    print("Some dependencies is not install successfully. Please reinstall it or create new environment.")
