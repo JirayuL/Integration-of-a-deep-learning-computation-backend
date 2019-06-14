@@ -5,8 +5,7 @@ import os
 
 def rm_main():
 
-    img = cv2.imread(
-        '../../../../../../../Users//Gear/Desktop/venv/RapidMiner-Keras-Extension-Installation/images/opencv_logo.png', 0)
+    img = cv2.imread('/path/to/your/image', 0)
     img = cv2.medianBlur(img, 5)
 
     cimg = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
@@ -21,5 +20,4 @@ def rm_main():
         # draw the center of the circle
         cv2.circle(cimg, (i[0], i[1]), 2, (0, 0, 255), 3)
 
-    cv2.imwrite(
-        '../../../../../../../Users//Gear/Desktop/venv/RapidMiner-Keras-Extension-Installation/detected_circle.png', cimg)
+    cv2.imwrite('/path/to/your/image', cimg)
