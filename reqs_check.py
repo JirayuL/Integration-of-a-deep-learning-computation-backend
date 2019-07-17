@@ -35,12 +35,6 @@ try:
 except:
     print("Importing pandas failed!")
     check = False
-try:
-    import pydot
-    print("Importing pydot successful")
-except:
-    print("Importing pydot failed!")
-    check = False
 if check:
     print("All dependencies are installed successfully!")
 else:
